@@ -2,13 +2,13 @@
 	--rotate: 0deg;
 
 	/* to make it responsive */
-	--unit: 2vmin;
+	--unit: 1.5vmin;
 	--zoom: 160;
 	--workspace-min: 768; /* device screen height = 768px */
 	--upx: calc(var(--zoom) * (var(--unit) / var(--workspace-min))); /* upx = units per pixel */
 
 	/* DNA Helix loop */
-	--animation-speed: 0.2;
+	--animation-speed: 0.5;
 	--helix-duration: 0.5s;
 	--helix-iteration-factor: 0.05s;
 	
@@ -20,12 +20,12 @@
 	--dna-sugar-border-size: calc(6 * var(--upx));
 
 	/* colors */
-	--color-background: #94b8ff;
-	--color-sugar: #323232;
-	--color-A: #ff6b6b;
-	--color-T: #ffcb6b;
-	--color-C: #6bff7a;
-	--color-G: #faff6b;
+	--color-background: #000000;
+	--color-sugar:#7e7e7e;
+	--color-A: #636363;
+	--color-T:#e4e4e4;
+	--color-C: #636363;
+	--color-G: #e4e4e4;
 }
 
 /* rotate the dna container for smart mobile devices */
